@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Background Variasi</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+
+        .background-color {
+            background: linear-gradient(to right, #3c3738, #c2a7a7); /* Gradient warna latar belakang */
+            padding: 6px;
+            color: #221212; /* Warna teks */
+            text-align: center;
+        } 
+
+        .background-image {
+            background: url('assets/pexel.jpg') no-repeat center center;
+            background-size: cover; /* Membuat gambar mencakup seluruh kontainer tanpa dipotong */
+            background-position: center;
+            height: 100vh; /* Tinggi kontainer disesuaikan dengan tinggi viewport */
+            margin: auto; /* Untuk memusatkan kontainer jika perlu */
+            text-align: center; /* Membuat tulisan berada di tengah */
+            color: #482c2c; /* Warna teks */
+            display: flex; /* Menggunakan flexbox untuk mengatur posisi */
+            justify-content: center; /* Membuat konten berada di tengah horizontal */
+            align-items: center; /* Membuat konten berada di tengah vertikal */
+        }
+
+        /* Font untuk background gambar */
+        .background-image .content {
+            font-size: 24px; /* Ukuran font yang lebih besar */
+            font-weight: bold;
+            font-family: 'Arial', sans-serif; /* Mengganti font */
+            text-align: center; /* Membuat tulisan berada di tengah */
+            margin: 0 auto; /* Menengahkan tulisan */
+            max-width: 80%; /* Membatasi lebar tulisan */
+            line-height: 1.6; /* Menambahkan jarak antar baris */
+            padding: 20px; /* Menambahkan ruang di sekitar tulisan */
+            border-radius: 10px; /* Membuat sudut elemen melengkung */
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image">
+        <div class="content">Hanya bulan yang menerangi gelapmu<br>Dan hanya bulan yang mengikuti langkahmu <br>tapi kenapa bulan selalu menghilang ditelan fajar pagi?</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Selector</title>
+    <style>
+        /* Child Combinator Selector */
+        ul > li {
+            font-weight: bold;
+        }
+
+        /* Adjacent Sibling Selector */
+        h2 + p {
+            color: orange;
+        }
+
+        /* Attribute Selector with value starting with */
+        a[href^="https"] {
+            background-color: lightgreen;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is a Heading</h2>
+    <p>This paragraph is targeted by the adjacent sibling selector.</p>
+
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+    </ul>
+
+    <a href="https://example.com">External Link</a>
+    <a href="http://example.com">Internal Link</a>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector 1</title>
+    <style>
+        * {
+            color: brown;
+            background-color: bisque;
+        }
+        h2 {
+            color: black;
+        }
+        p.suscces{
+            color: green;
+        }
+        p#danger {
+            color: blueviolet;
+        }
+        #id1{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        .class1{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        .class2{
+            font-size: 24px;
+        }
+        .font-xs {
+            color: red;
+            font-size: 24px;
+
+        }
+        a[href]{
+            color: aqua;
+            font-size: 50px;
+        }
+        h1,
+        h2,
+        h3{
+            text-transform: uppercase;
+        }
+        span#penting{
+            color: red;
+            font-weight: bold;
+        }
+        p.judul {
+            color: red;
+        }
+        div p{
+            font-size: x-large;
+        }
+        div  > p{
+            color: cornflowerblue;
+        }
+        /*div section p{
+            font-size: small;
+        }
+        /* judul{
+            font-weight: bold;
+            font-size: 20px;
+            color: blueviolet;
+        }*/
+    </style>
+</head>
+<body>
+    <h1 class="font-xs">Hello word</h1>
+    <p>This is paragraf one</p>
+    <hr>
+    <h2 class="judul">ini adalah judul</h2>
+    <p>This is Second paragraf</p>
+    <hr>
+    <h2 class=class2>ini adalah judul kedua</h2>
+    <p class="class2">This is Second paragraf</p>
+    <hr>
+    <h3>This is Heading Three</h3>
+    <p id="danger">Login gagal</p>
+    <hr>
+    <h3>This is Heading two</h3>
+    <p class="suscces">Login Anda berhasil</p>
+    <hr>
+    <a>Link not active</a>
+    <a href="https://bif-sby.telkomuniversity.ac.id/" terget="_blank">Link active</a>
+    
+    <hr>
+    <p class="judul">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut vel, <span id="important">dolor</span>, natus et quod perferendis voluptas nemo exercitationem perspiciatis necessitatibus velit sapiente minima. Pariatur consectetur veniam accusantium sit earum dolorem.</p>
+
+    <hr>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam obcaecati minima ipsam corrupti totam quisquam iste explicabo in molestiae aperiam, sunt molestias dignissimos et praesentium facilis minus rem eveniet.</p>
+        <section>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum nobis, debitis nihil cupiditate, consequatur amet laudantium beatae totam placeat iure, laborum nostrum recusandae labore harum similique impedit eum sint ea.</p>
+
+
+    
+</body>
+
+</html>
